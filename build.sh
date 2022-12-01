@@ -1,6 +1,6 @@
 #!/bin/bash
 
-nim c capp_broadcast_detector.nim
+nim c -f capp_broadcast_detector.nim
 
 if [ "$?" != "0" ]; then
     echo "====================================================="
